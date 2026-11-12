@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vienna-metro-live-backend"
+version = "0.1.0"
+description = "Schedule-based Vienna U-Bahn simulation API"
+requires-python = ">=3.10"
+dependencies = ["fastapi>=0.110,<1", "uvicorn>=0.29,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

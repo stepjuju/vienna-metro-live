@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+# Node
+node_modules/
+dist/
+# Editors & secrets
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+# GTFS downloads / processed data
+data/*
+!data/.gitkeep
+.DS_Store
