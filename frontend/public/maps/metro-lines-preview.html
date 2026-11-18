@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Metro Lines Preview</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f3f4f6;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    svg {
+      background: white;
+      width: min(95vw, 1122px);
+      height: auto;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h2>Extracted Vienna U-Bahn Routes</h2>
+  <svg
+    id="map"
+    viewBox="0 0 1122.5 793.7"
+    xmlns="http://www.w3.org/2000/svg"
+  ></svg>
+
+  <script type="module">
+    const response = await fetch('/src/data/metroPaths.json');
+    const lines = await response.json();
+
+    const svg = document.getElementById('map');
+    const ns = 'http://www.w3.org/2000/svg';
+
+    for (const [name, data] of Object.entries(lines)) {
+      const group = document.createElementNS(ns, 'g');
+
+      for (const transform of data.transforms || []) {
+        const wrapper = document.createElementNS(ns, 'g');
+        wrapper.setAttribute('transform', transform);
+        group.appendChild(wrapper);
+      }
+
+      const path = document.createElementNS(ns, 'path');
+      path.setAttribute('d', data.d);
+      path.setAttribute('fill', 'none');
+      path.setAttribute('stroke', data.color);
+      path.setAttribute('stroke-width', '12');
+      path.setAttribute('stroke-linecap', 'round');
+      path.setAttribute('stroke-linejoin', 'round');
+
+      let parent = group;
+      for (let i = 0; i < (data.transforms || []).length; i++) {
+        parent = parent.firstElementChild;
+      }
+
+      parent.appendChild(path);
+      svg.appendChild(group);
+
+      console.log(name, data);
+    }
+  </script>
+</body>
+</html>

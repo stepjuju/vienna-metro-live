@@ -1,0 +1,23 @@
+.app { max-width: 1480px; margin: 0 auto; padding: 32px 22px; }
+.page-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 30px; }
+.eyebrow { letter-spacing: .16em; font-size: 11px; font-weight: 700; color: #91A0B4; margin: 0 0 8px; }
+h1 { margin: 0; font-size: 30px; letter-spacing: -.035em; }
+.subtitle { margin: 6px 0 0; color: #9BA5B3; font-size: 14px; }
+.live-badge { color: #7BE0B6; font-weight: 700; font-size: 12px; white-space: nowrap; }
+.live-dot { display: inline-block; width: 7px; height: 7px; margin-right: 7px; border-radius: 50%; background: #7BE0B6; }
+.panel { background: #1A202A; border: 1px solid #323B49; border-radius: 16px; padding: 24px; }
+.panel-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-bottom: 20px; }
+.line-heading { display: flex; gap: 13px; align-items: center; }
+.line-heading h2 { margin: 0; font-size: 18px; letter-spacing: -.01em; }
+.line-badge { padding: 6px 10px; border-radius: 6px; background: #E3000F; color: white; font-weight: 750; }
+.muted, .panel-footer { color: #9BA5B3; font-size: 13px; }
+.map-scroll { overflow-x: auto; overflow-y: hidden; background: #10151D; border-radius: 12px; }
+.metro-svg { display: block; max-width: none; }
+.panel-footer { display: flex; justify-content: space-between; gap: 16px; padding-top: 18px; }
+.error { color: #FF9393; font-size: 13px; }
+@media (max-width: 650px) {
+  .app { padding: 16px; }
+  .page-header, .panel-heading, .panel-footer { align-items: flex-start; flex-direction: column; }
+  h1 { font-size: 25px; }
+  .panel { padding: 14px; }
+}

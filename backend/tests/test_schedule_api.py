@@ -138,7 +138,20 @@ def test_interpolation():
     assert result["to_stop_id"] == "s2"
 
 
-def test_api_returns_overnight_trains(test_db):
+def test_api_returns_overnight_trains(test_db, monkeypatch):
+    class FakeStationRegistry:
+        def resolve(self, stop_id: str) -> str:
+            mapping = {
+                "s1": "test-station-1",
+                "s2": "test-station-2",
+            }
+            return mapping[stop_id]
+
+    monkeypatch.setattr(
+        main,
+        "get_station_registry",
+        lambda: FakeStationRegistry(),
+    )
     client = TestClient(main.app)
 
     response = client.get(

@@ -1,0 +1,709 @@
+{
+  "schema_version": 1,
+  "stations": [
+    {
+      "id": "vie-aderklaaer-strasse",
+      "display_name": "Aderklaaer Straße",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-alaudagasse",
+      "display_name": "Alaudagasse",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-alser-strasse",
+      "display_name": "Alser Straße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-alte-donau",
+      "display_name": "Alte Donau",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-alterlaa",
+      "display_name": "Alterlaa",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-altes-landgut",
+      "display_name": "Altes Landgut",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-am-schoepfwerk",
+      "display_name": "Am Schöpfwerk",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-aspern-nord",
+      "display_name": "Aspern Nord",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-aspernstrasse",
+      "display_name": "Aspernstraße",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-bahnhof-meidling",
+      "display_name": "Meidling",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-braunschweiggasse",
+      "display_name": "Braunschweiggasse",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-burggasse-stadthalle",
+      "display_name": "Burggasse-Stadthalle",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-donauinsel",
+      "display_name": "Donauinsel",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-donaumarina",
+      "display_name": "Donaumarina",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-donauspital",
+      "display_name": "Donauspital",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-donaustadtbruecke",
+      "display_name": "Donaustadtbrücke",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-dresdner-strasse",
+      "display_name": "Dresdner Straße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-enkplatz",
+      "display_name": "Enkplatz",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-erdberg",
+      "display_name": "Erdberg",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-erlaaer-strasse",
+      "display_name": "Erlaaer Straße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-floridsdorf",
+      "display_name": "Floridsdorf",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-friedensbruecke",
+      "display_name": "Friedensbrücke",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-gasometer",
+      "display_name": "Gasometer",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-grossfeldsiedlung",
+      "display_name": "Großfeldsiedlung",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-gumpendorfer-strasse",
+      "display_name": "Gumpendorfer Straße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-handelskai",
+      "display_name": "Handelskai",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-hardeggasse",
+      "display_name": "Hardeggasse",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-hausfeldstrasse",
+      "display_name": "Hausfeldstraße",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-heiligenstadt",
+      "display_name": "Heiligenstadt",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-herrengasse",
+      "display_name": "Herrengasse",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-hietzing",
+      "display_name": "Hietzing",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-huetteldorf",
+      "display_name": "Hütteldorf",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-huetteldorfer-strasse",
+      "display_name": "Hütteldorfer Straße",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-jaegerstrasse",
+      "display_name": "Jägerstraße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-johnstrasse",
+      "display_name": "Johnstraße",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-josefstaedter-strasse",
+      "display_name": "Josefstädter Straße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-kagran",
+      "display_name": "Kagran",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-kagraner-platz",
+      "display_name": "Kagraner Platz",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-kaisermuehlen-vic",
+      "display_name": "Kaisermühlen-VIC",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-kardinal-nagl-platz",
+      "display_name": "Kardinal-Nagl-Platz",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-karlsplatz",
+      "display_name": "Karlsplatz",
+      "lines": [
+        "U1",
+        "U2",
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-kendlerstrasse",
+      "display_name": "Kendlerstraße",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-keplerplatz",
+      "display_name": "Keplerplatz",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-kettenbrueckengasse",
+      "display_name": "Kettenbrückengasse",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-krieau",
+      "display_name": "Krieau",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-laengenfeldgasse",
+      "display_name": "Längenfeldgasse",
+      "lines": [
+        "U4",
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-landstrasse",
+      "display_name": "Landstraße",
+      "lines": [
+        "U3",
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-leopoldau",
+      "display_name": "Leopoldau",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-lina-loos-platz",
+      "display_name": "Lina-Loos-Platz",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-margaretenguertel",
+      "display_name": "Margaretengürtel",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-meidling-hauptstrasse",
+      "display_name": "Meidling Hauptstraße",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-messe-prater",
+      "display_name": "Messe-Prater",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-michelbeuern-akh",
+      "display_name": "Michelbeuern-AKH",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-museumsquartier",
+      "display_name": "Museumsquartier",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-nestroyplatz",
+      "display_name": "Nestroyplatz",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-neubaugasse",
+      "display_name": "Neubaugasse",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-neue-donau",
+      "display_name": "Neue Donau",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-neulaa",
+      "display_name": "Neulaa",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-niederhofstrasse",
+      "display_name": "Niederhofstraße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-nussdorfer-strasse",
+      "display_name": "Nußdorfer Straße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-ober-st-veit",
+      "display_name": "Ober St. Veit",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-oberlaa",
+      "display_name": "Oberlaa",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-ottakring",
+      "display_name": "Ottakring",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-perfektastrasse",
+      "display_name": "Perfektastraße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-pilgramgasse",
+      "display_name": "Pilgramgasse",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-praterstern",
+      "display_name": "Praterstern",
+      "lines": [
+        "U1",
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-rathaus",
+      "display_name": "Rathaus",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-rennbahnweg",
+      "display_name": "Rennbahnweg",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-reumannplatz",
+      "display_name": "Reumannplatz",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-rochusgasse",
+      "display_name": "Rochusgasse",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-rossauer-laende",
+      "display_name": "Roßauer Lände",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-schlachthausgasse",
+      "display_name": "Schlachthausgasse",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-schoenbrunn",
+      "display_name": "Schönbrunn",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-schottenring",
+      "display_name": "Schottenring",
+      "lines": [
+        "U2",
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-schottentor",
+      "display_name": "Schottentor",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-schwedenplatz",
+      "display_name": "Schwedenplatz",
+      "lines": [
+        "U1",
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-schweglerstrasse",
+      "display_name": "Schweglerstraße",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-seestadt",
+      "display_name": "Seestadt",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-siebenhirten",
+      "display_name": "Siebenhirten",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-simmering",
+      "display_name": "Simmering",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-spittelau",
+      "display_name": "Spittelau",
+      "lines": [
+        "U4",
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-stadion",
+      "display_name": "Stadion",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-stadlau",
+      "display_name": "Stadlau",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-stadtpark",
+      "display_name": "Stadtpark",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-stephansplatz",
+      "display_name": "Stephansplatz",
+      "lines": [
+        "U1",
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-stubentor",
+      "display_name": "Stubentor",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-suedtiroler-pl-hbf",
+      "display_name": "Südtiroler Pl. - Hbf.",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-taborstrasse",
+      "display_name": "Taborstraße",
+      "lines": [
+        "U2"
+      ]
+    },
+    {
+      "id": "vie-taubstummengasse",
+      "display_name": "Taubstummengasse",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-thaliastrasse",
+      "display_name": "Thaliastraße",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-troststrasse",
+      "display_name": "Troststraße",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-tscherttegasse",
+      "display_name": "Tscherttegasse",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-unter-st-veit",
+      "display_name": "Unter St. Veit",
+      "lines": [
+        "U4"
+      ]
+    },
+    {
+      "id": "vie-volkstheater",
+      "display_name": "Volkstheater",
+      "lines": [
+        "U2",
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-vorgartenstrasse",
+      "display_name": "Vorgartenstraße",
+      "lines": [
+        "U1"
+      ]
+    },
+    {
+      "id": "vie-waehringer-strasse-volksoper",
+      "display_name": "Währinger Straße-Volksoper",
+      "lines": [
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-westbahnhof",
+      "display_name": "Westbahnhof",
+      "lines": [
+        "U3",
+        "U6"
+      ]
+    },
+    {
+      "id": "vie-zieglergasse",
+      "display_name": "Zieglergasse",
+      "lines": [
+        "U3"
+      ]
+    },
+    {
+      "id": "vie-zippererstrasse",
+      "display_name": "Zippererstraße",
+      "lines": [
+        "U3"
+      ]
+    }
+  ]
+}
